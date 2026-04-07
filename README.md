@@ -10,3 +10,5 @@ rozumieniem Cyber Kill Chain,
 tworzeniem dokumentacji technicznej i raportów po incydencie.
 
 Dokumentacja scenariuszy obejmuje opis celu ataku, przebieg techniczny, artefakty pozostawione w systemie, alerty wygenerowane przez Wazuh, analizę z perspektywy obrońcy oraz wnioski i możliwe usprawnienia detekcji.
+
+#In progress#
