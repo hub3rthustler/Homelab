@@ -1,14 +1,68 @@
-#SOC Homelab
-Projekt homelabu został zbudowany w celu rozwijania praktycznych kompetencji z obszaru cyberbezpieczeństwa, ze szczególnym naciskiem na analizę zdarzeń bezpieczeństwa, obsługę SIEM/XDR oraz podstawy ofensywy i detekcji.
-Środowisko składa się z centralnego serwera Wazuh na Ubuntu 24.04 LTS oraz monitorowanych hostów: Ubuntu 24.04, Windows Server 2025 pełniącego rolę kontrolera domeny oraz Windows 11. Działania ofensywne i symulacje ataków realizowane są z wykorzystaniem Kali Linux oraz Atomic Red Team.
-Głównym założeniem projektu jest przeprowadzanie kontrolowanych symulacji ataków, analiza wygenerowanych logów i alertów oraz dokumentowanie całego przebiegu incydentu z perspektywy SOC. W ramach projektu rozwijane są umiejętności związane z:
+# SOC Homelab
 
-obsługą Wazuh,
-analizą logów i alertów,
-mapowaniem aktywności do MITRE ATT&CK,
-rozumieniem Cyber Kill Chain,
-tworzeniem dokumentacji technicznej i raportów po incydencie.
+Projekt homelabu został stworzony jako praktyczne środowisko do rozwijania umiejętności z zakresu cyberbezpieczeństwa, ze szczególnym naciskiem na analizę incydentów, monitoring zdarzeń bezpieczeństwa oraz podstawy detekcji i działań ofensywnych.
 
-Dokumentacja scenariuszy obejmuje opis celu ataku, przebieg techniczny, artefakty pozostawione w systemie, alerty wygenerowane przez Wazuh, analizę z perspektywy obrońcy oraz wnioski i możliwe usprawnienia detekcji.
+## Cel projektu
 
-#In progress#
+Celem projektu jest budowa i rozwój własnego środowiska laboratoryjnego typu SOC, w którym realizowane są kontrolowane symulacje ataków, analiza logów i alertów oraz dokumentowanie incydentów z perspektywy analityka bezpieczeństwa.
+
+Projekt pozwala rozwijać praktyczne kompetencje w obszarach takich jak:
+- analiza logów i alertów,
+- obsługa platformy Wazuh,
+- praca z SIEM/XDR,
+- mapowanie aktywności do MITRE ATT&CK,
+- rozumienie etapów ataku w oparciu o Cyber Kill Chain,
+- tworzenie dokumentacji technicznej i raportów po incydencie.
+
+## Architektura środowiska
+
+Środowisko składa się z centralnego serwera **Wazuh** uruchomionego na **Ubuntu 24.04 LTS** oraz monitorowanych hostów:
+
+- **Ubuntu 24.04**
+- **Windows Server 2025** pełniący rolę kontrolera domeny
+- **Windows 11**
+
+Do realizacji scenariuszy ofensywnych i symulacji ataków wykorzystywane są:
+- **Kali Linux/BlackArch**
+- **Atomic Red Team**
+- **AI**
+
+## Zakres prac
+
+W ramach projektu realizowane są scenariusze testowe obejmujące:
+- wykonanie kontrolowanych działań ofensywnych,
+- rejestrowanie i analizę zdarzeń po stronie hostów,
+- identyfikację artefaktów pozostawionych w systemie,
+- analizę alertów generowanych przez Wazuh,
+- ocenę skuteczności detekcji,
+- dokumentowanie przebiegu incydentu i rekomendacji usprawnień.
+
+## Dokumentacja scenariuszy
+
+Każdy scenariusz zawiera:
+- cel ataku,
+- przebieg techniczny,
+- artefakty pozostawione w systemie,
+- alerty i logi wykryte przez Wazuh,
+- analizę z perspektywy obrońcy,
+- wnioski oraz propozycje usprawnień detekcji.
+
+## Rozwijane kompetencje
+
+Projekt rozwija praktyczne umiejętności istotne w pracy na stanowiskach takich jak:
+- SOC Analyst
+- Cybersecurity Analyst
+- Junior Security Engineer
+
+Najważniejsze obszary kompetencyjne:
+- monitoring i analiza zdarzeń bezpieczeństwa,
+- triage alertów,
+- analiza logów systemowych i bezpieczeństwa,
+- podstawy threat detection,
+- rozumienie technik atakujących,
+- dokumentowanie incydentów i wniosków technicznych.
+
+## Status
+
+**Project in progress**  
+Środowisko jest stale rozwijane o kolejne scenariusze ataków, reguły detekcji i elementy dokumentacji technicznej.
